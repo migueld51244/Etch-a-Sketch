@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  border: 1px solid black;
+}
+
+.square {
+  border: 1px solid black;
+  padding: 16px;
+}
