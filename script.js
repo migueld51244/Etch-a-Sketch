@@ -11,6 +11,11 @@ for(let i = 0; i < 16; i++) {
   for(let j = 0; j < 16; j++) {
     let square = document.createElement('div');
     square.className = 'square';
+    square.addEventListener("mouseover", function changeBgColor() {
+      square.style.backgroundColor = "black";
+      square.style.transition = "1.5s ease";
+    });
     row.appendChild(square);
   }
 }
+
