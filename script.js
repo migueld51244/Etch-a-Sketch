@@ -13,7 +13,6 @@ for(let i = 0; i < 16; i++) {
     square.className = 'square';
     square.addEventListener("mouseover", function changeBgColor() {
       square.style.backgroundColor = "black";
-      square.style.transition = "1.5s ease";
     });
     row.appendChild(square);
   }
